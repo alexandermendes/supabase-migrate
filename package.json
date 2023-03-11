@@ -27,6 +27,9 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.7.1",
+    "dotenv": "^16.0.3",
+    "p-queue": "^6.6.2",
+    "supabase": "^1.42.5",
     "yargs": "^17.6.2"
   },
   "devDependencies": {
