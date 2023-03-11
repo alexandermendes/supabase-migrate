@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+.yalc
+yalc.lock
+
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
