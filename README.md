@@ -4,7 +4,11 @@ A script for migrating one Supabase project to another.
 
 ## Usage
 
-This package publishes a command line script, which you can run like so:
+This package publishes a Node package and a command line script.
+
+## CLI
+
+To run the migration can be run from the command line:
 
 ```text
 npx supabase-migrate \
@@ -16,13 +20,15 @@ npx supabase-migrate \
 --to-key <PROJECT-B-SERVICE-ROLE-KEY>
 ```
 
-Or you can install the package:
+## Node
+
+To run the migration from Node, first install the package:
 
 ```text
 yarn add supabase-migrate
 ```
 
-And run with:
+Then run with:
 
 ```text
 yarn supabase-migrate
